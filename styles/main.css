@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Objective";
+  src: url(font/Objective-Regular.otf);
+}
+body {
+  margin: 0;
+  font-family: "Objective", sans-serif;
+}
+
+.container {
+  overflow-x: hidden;
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Objective";
+    src: url(font/Objective-Regular.otf);
+  }
+  $responsive1: 1439px;
+  $responsive2: 1220px;
+  $responsive3: 1025px;
+  $responsive4: 769px;
+  $responsive5: 426px;
+  $responsive6: 380px;
+  $responsive7: 1920px;
+  body {
+    margin: 0;
+    font-family: "Objective", sans-serif;
+  }
+  .container {
+    overflow-x: hidden;
+  }

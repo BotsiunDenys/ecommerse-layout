@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Objective";
+  src: url(font/Objective-Regular.otf);
+}
+body {
+  margin: 0;
+  font-family: "Objective", sans-serif;
+}
+
+.container {
+  overflow-x: hidden;
+}
+
+.download-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 11.5% 17% 8.5% 12%;
+}
+@media (max-width: 769px) {
+  .download-content img {
+    max-height: 400px;
+    max-width: 300px;
+  }
+}
+@media (max-width: 1025px) {
+  .download-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media (max-width: 426px) {
+  .download-content {
+    padding-top: 60%;
+  }
+}
+.download-content_txt-dwnld {
+  padding: 9% 0 0 6%;
+}
+@media (max-width: 1220px) {
+  .download-content_txt-dwnld {
+    padding: 5% 0 0 6%;
+  }
+}
+.download-content_txt-dwnld .download {
+  font-size: 25px;
+  line-height: 25.95px;
+  font-weight: bolder;
+  padding-left: 7%;
+  margin-bottom: 0;
+}
+@media (max-width: 1439px) {
+  .download-content_txt-dwnld .download {
+    text-align: center;
+    font-size: 18px;
+    line-height: 19px;
+    padding: 5% 0 0 0;
+  }
+}
+@media (min-width: 1920px) {
+  .download-content_txt-dwnld .download {
+    text-align: center;
+    padding: 0;
+  }
+}
+.download-content_txt-dwnld .description {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+@media (max-width: 1439px) {
+  .download-content_txt-dwnld .description {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+.download-content_txt-dwnld .btns {
+  padding: 10% 0 0 10%;
+}
+@media (max-width: 1439px) {
+  .download-content_txt-dwnld .btns {
+    padding: 5% 0 0 5%;
+  }
+}
+@media (max-width: 1025px) {
+  .download-content_txt-dwnld .btns {
+    padding-left: 25%;
+  }
+}
+@media (max-width: 769px) {
+  .download-content_txt-dwnld .btns {
+    padding-left: 20%;
+  }
+}
+@media (min-width: 1920px) {
+  .download-content_txt-dwnld .btns {
+    padding-left: 25%;
+  }
+}
+.download-content_txt-dwnld .btns .gp-black-button {
+  padding-right: 25px;
+}
+@media (max-width: 1025px) {
+  .download-content_txt-dwnld .btns .gp-black-button {
+    padding-right: 0;
+  }
+}
+
+.btns:hover {
+  cursor: pointer;
+}
